@@ -1,0 +1,141 @@
+
+@font-face {
+  font-family: 'norse-bold';
+  src: url('/font/Norse-Bold.otf');
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+div.container{
+
+  display: flex;
+  height: 750px;
+}
+
+div.left-side{
+  min-width: 30%;
+  max-width: 40%;
+  background-image: url('./images/diego-ph-5LOhydOtTKU-unsplash.jpg');
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+div.logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #000;
+  opacity: 0.4;
+  width: 100%;
+  height: 200px;
+}
+div.left-side>div.logo>img{
+  height: 150px;
+}
+
+div.left-side>div.logo>span{
+  color: #fff;
+  font-family: 'norse-bold';
+  font-size: 80px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+div.right-side{
+  min-width: 70%;
+  max-width: 60%;
+  background-color: rgb(246, 247, 248);
+  height: 100%;
+}
+
+div.header{
+  margin-top: 20px;
+  height: 200px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.header>p{
+  margin-left: 40px;
+  width: 700px;
+  
+}
+
+div.content{
+  padding-top: 14px;
+  background-color: #fff;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+  box-shadow: -1px -2px rgb(221, 230, 235);
+  
+}
+div.form-header{
+  margin-left: 40px;
+}
+div.form-content{
+
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+div.form-left-side{
+  margin-right: 20px;
+}
+
+div.form-right-side{
+  margin-left: 20px;
+}
+
+div.form-left-side>div, div.form-right-side>div{
+  margin-bottom: 20px;
+}
+
+div>input{
+  height: 30px;
+  width: 300px;
+}
+
+div.form-footer{
+  padding-top: 40px;
+  background-color: rgb(249, 214, 222);
+  height: 175px;
+  width: 100%;
+  margin-left: 0px;
+}
+div.footer-content{
+  margin-left: 40px;
+}
+div.footer-content>button{
+  height: 40px;
+  width: 150px;
+  background-color: rgb(68, 68, 231);
+  border: 0px ;
+  border-radius: 5px;
+  color: #fff;
+}
+button{
+ cursor: pointer;
+ 
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(68, 68, 231);
+}
+
+div.photo-author{
+  color: #fff;
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 14px;
+  display: flex;
+  align-self: center;
+}
